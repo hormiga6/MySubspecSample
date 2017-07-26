@@ -337,6 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hormiga6.Hoge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -354,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hormiga6.Hoge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

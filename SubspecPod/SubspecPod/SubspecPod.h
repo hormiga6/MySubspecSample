@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double SubspecPodVersionNumber;
 FOUNDATION_EXPORT const unsigned char SubspecPodVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SubspecPod/PublicHeader.h>
-
+#import "SubspecPodString.h"
 
