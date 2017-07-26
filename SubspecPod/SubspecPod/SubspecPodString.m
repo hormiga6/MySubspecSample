@@ -10,9 +10,9 @@
 
 @implementation SubspecPodString
 +(NSString*)getHogeString {
-    id class = [[NSClassFromString(@"NameofClass") alloc] init];
+    id class = NSClassFromString(@"HogeString");
     if(class){
-        return [class getHogeString];
+        return [class performSelector:@selector(get)];
     }else{
         return @"";
     }
