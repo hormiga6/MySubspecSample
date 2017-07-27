@@ -1,0 +1,6 @@
+framework module Hoge {
+  umbrella header "Hoge.h"
+
+  export *
+  module * { export * }
+}

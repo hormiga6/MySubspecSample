@@ -1,0 +1,6 @@
+framework module SubspecPod {
+  umbrella header "SubspecPod.h"
+
+  export *
+  module * { export * }
+}

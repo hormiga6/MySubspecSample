@@ -12,7 +12,7 @@
 		746122971F28C45400B30EAF /* SubspecPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 746122891F28C45400B30EAF /* SubspecPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		746122A41F28C7A500B30EAF /* SubspecPodString.h in Headers */ = {isa = PBXBuildFile; fileRef = 746122A21F28C7A500B30EAF /* SubspecPodString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		746122A51F28C7A500B30EAF /* SubspecPodString.m in Sources */ = {isa = PBXBuildFile; fileRef = 746122A31F28C7A500B30EAF /* SubspecPodString.m */; };
-		746122BF1F28D85A00B30EAF /* Hoge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746122BE1F28D85A00B30EAF /* Hoge.framework */; };
+		746122C41F29716000B30EAF /* Hoge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746122C31F29716000B30EAF /* Hoge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		746122961F28C45400B30EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		746122A21F28C7A500B30EAF /* SubspecPodString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubspecPodString.h; sourceTree = "<group>"; };
 		746122A31F28C7A500B30EAF /* SubspecPodString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubspecPodString.m; sourceTree = "<group>"; };
-		746122BE1F28D85A00B30EAF /* Hoge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hoge.framework; path = "../Hoge/build/Debug-iphoneos/Hoge.framework"; sourceTree = "<group>"; };
+		746122C31F29716000B30EAF /* Hoge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hoge.framework; path = "../../../Library/Developer/Xcode/DerivedData/SubspecPod-condqeuzhtpcuhayjfgygqlurjqy/Build/Products/Debug-iphonesimulator/Hoge.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746122BF1F28D85A00B30EAF /* Hoge.framework in Frameworks */,
+				746122C41F29716000B30EAF /* Hoge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 				746122881F28C45400B30EAF /* SubspecPod */,
 				746122931F28C45400B30EAF /* SubspecPodTests */,
 				746122871F28C45400B30EAF /* Products */,
-				746122BD1F28D85A00B30EAF /* Frameworks */,
+				746122C21F29716000B30EAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +96,10 @@
 			path = SubspecPodTests;
 			sourceTree = "<group>";
 		};
-		746122BD1F28D85A00B30EAF /* Frameworks */ = {
+		746122C21F29716000B30EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				746122BE1F28D85A00B30EAF /* Hoge.framework */,
+				746122C31F29716000B30EAF /* Hoge.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -346,6 +346,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SubspecPod",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SubspecPod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -367,6 +368,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SubspecPod",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SubspecPod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
