@@ -12,7 +12,6 @@
 		746122971F28C45400B30EAF /* SubspecPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 746122891F28C45400B30EAF /* SubspecPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		746122A41F28C7A500B30EAF /* SubspecPodString.h in Headers */ = {isa = PBXBuildFile; fileRef = 746122A21F28C7A500B30EAF /* SubspecPodString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		746122A51F28C7A500B30EAF /* SubspecPodString.m in Sources */ = {isa = PBXBuildFile; fileRef = 746122A31F28C7A500B30EAF /* SubspecPodString.m */; };
-		746122C41F29716000B30EAF /* Hoge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746122C31F29716000B30EAF /* Hoge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746122C41F29716000B30EAF /* Hoge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
