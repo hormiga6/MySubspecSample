@@ -5,7 +5,7 @@
 //  Copyright © 2017年 hormiga. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Hoge.
 FOUNDATION_EXPORT double HogeVersionNumber;
