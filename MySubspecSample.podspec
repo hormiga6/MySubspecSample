@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MySubspecSample'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MySubspecSample.'
+  s.version          = '0.2.0'
+  s.summary          = 'My subspec sample'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,8 +24,16 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/vg-arimura/MySubspecSample'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kotaro Arimura' => 'kotaro_arimura@voyagegroup.com' }
-  s.source           = { :git => 'https://github.com/vg-arimura/MySubspecSample.git', :tag => s.version.to_s }
-
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = 'output/Hoge.framework'
+
+  s.default_subspec = 'Core'
+  s.source  = { :git => 'https://github.com/vg-arimura/MySubspecSample.git', :tag => s.version.to_s }
+
+  s.subspec 'Hoge' do |hoge|
+    hoge.vendored_frameworks = 'output/Hoge.framework'
+  end
+
+  s.subspec 'Core' do |core|
+    core.vendored_frameworks = 'output/SubspecPod.framework'
+  end
 end
